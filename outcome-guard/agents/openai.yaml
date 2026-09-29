@@ -1,0 +1,6 @@
+interface:
+  display_name: "目标与交付守护"
+  short_description: "让研究约束实际产物，防止目标漂移、局部通过和中间步骤冒充任务完成"
+  default_prompt: "使用 $outcome-guard 核对本轮授权目标、产物要求与验收证据，继续完成剩余的已授权工作。"
+policy:
+  allow_implicit_invocation: true
